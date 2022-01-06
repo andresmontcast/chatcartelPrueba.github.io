@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatCartel</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- INICIO START -->
+    <section class="inicio">
+      <div class="inicio__box-text">
+        <h1 class="inicio-titulo">Mensajes Salientes</h1>
+      </div>
+      <div class="inicio__box-btn">
+        <button class="inicio-box"> <img class="icon-p" src="./svg/iconmonstr-plus-thin.svg" alt="">Nuevo Mensaje</button>
+      </div>
+    </section>
+
+    <!-- INICIO FIN  -->
+
+    <!-- MENSAJES SALIENTES PANEL START  -->
+
+    <section class="notifications">
+      <div class="notifications__msj">
+        <div class="notifications__box">
+
+         <p class="notifications__txt">Enviados</p>
+           
+         
+          <div class="notifications__progress blue"></div>
+          <div class="notifications__num">25</div>
+        </div>
+
+        <div class="notifications__box">
+            <p class="notifications__txt">Recibidos</p>
+            <div class="notifications__progress green"></div>
+            <div class="notifications__num">25</div>
+          </div>
+
+          <div class="notifications__box">
+            <p class="notifications__txt">No Recibidos</p>
+            <div class="notifications__progress red"></div>
+            <div class="notifications__num">0</div>
+          </div>
+
+
+
+          <div class="notifications__box">
+            <p class="notifications__txt">Respondidos</p>
+            <div class="notifications__progress orange"></div>
+            <div class="notifications__num">0</div>
+          </div>
+      </div>
+
+
+      <div class="mensajes">
+        
+              <div class="mensajes__icon">
+                  <img class="icon" src="./svg/sent.svg" alt="">
+              </div>
+              <div class="mensajes__txtBox blue-b">
+                  <div class="mensajes__txt">
+                     <p class="mensajes__txtHeader">Mensajes Enviados</p> 
+                  </div>
+                  <div class="mensajes__num">
+                      <p class="mensajes__numCont">25</p>
+                  </div>
+
+              </div>    
+        
+      </div>
+
+
+      <div class="mensajes">
+        
+        <div class="mensajes__icon">
+            <img class="icon" src="./svg/received.svg" alt="">
+        </div>
+        <div class="mensajes__txtBox green-b">
+            <div class="mensajes__txt">
+               <p class="mensajes__txtHeader">Mensajes Recibidos</p> 
+            </div>
+            <div class="mensajes__num">
+                <p class="mensajes__numCont">25</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mensajes">
+        
+        <div class="mensajes__icon">
+            <img class="icon" src="./svg/not_received.svg" alt="">
+        </div>
+        <div class="mensajes__txtBox red-b">
+            <div class="mensajes__txt">
+               <p class="mensajes__txtHeader">Mensajes no recibidos</p> 
+            </div>
+            <div class="mensajes__num">
+                <p class="mensajes__numCont">0</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mensajes">
+        
+        <div class="mensajes__icon">
+            <img class="icon" src="./svg/answered.svg" alt="">
+        </div>
+        <div class="mensajes__txtBox orange-b">
+            <div class="mensajes__txt">
+               <p class="mensajes__txtHeader">Mensajes Respondidos</p> 
+            </div>
+            <div class="mensajes__num">
+                <p class="mensajes__numCont">0</p>
+            </div>
+
+        </div>
+    </div>
+      
+    </section>
+    <!-- MENSAJES SALIENTES PANEL FIN  -->
+ <!-- Table Strat  -->
+
+ <div class="container">
+    <table>
+        <thead>
+          <tr>
+            <th class="txtHedear">Titulo</th>
+            <th class="txtHedear">Estado</th>
+            <th class="txtHedear">Fecha de creacion</th>
+            <th class="txtHedear">Efectividad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-column="Titulo">Mensaje de prueba</td>
+            <td data-column="Estado"> En revision <img class="icon-c" src="./svg/clock-svgrepo-com.svg" alt=""></td>
+            <td data-column="Fecha de creacion">15-07-2021 15:59</td>
+            <td data-column="Efectividad">0%</td>
+          </tr>
+          <tr>
+            <td data-column="Titulo">Bienvenida</td>
+            <td data-column="Estado">Verificado <img class="icon-v" src="./svg/verified.svg" alt=""></td>
+            <td data-column="Fecha de creacion">01-07-2021 00:00</td>
+            <td data-column="Efectividad">0%</td>
+          </tr>
+          <tr>
+            <td data-column="Titulo">Orden por llegar</td>
+            <td data-column="Estado">Verificado  <img  class="icon-v" src="./svg/verified.svg" alt=""></td>
+            <td data-column="Fecha de creacion">01-01-2021 00:00</td>
+            <td data-column="Efectividad">0%</td>
+          </tr>
+          <tr>
+            <td data-column="Titulo">Pedidos</td>
+            <td data-column="Estado">Verificado  <img class="icon-v" src="./svg/verified.svg" alt=""></td>
+            <td data-column="Fecha de creacion">01-01-2021 00:00</td>
+            <td data-column="Efectividad">0%</td>
+          </tr>
+          <tr>
+            <td data-column="Titulo">Actualizacion de Seguimineto</td>
+            <td data-column="Estado">Verificado  <img class="icon-v" src="./svg/verified.svg" alt=""></td>
+            <td data-column="Fecha de creacion">01-01-2021 00:00</td>
+            <td data-column="Efectividad">0%</td>
+          </tr>
+        </tbody>
+      </table>
+
+ </div>
+
+    
+      <!-- Table Fin  -->
+  </body>
+</html>
